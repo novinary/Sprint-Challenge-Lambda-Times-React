@@ -48,7 +48,7 @@ export default class Content extends Component {
     }
     else {
       //here i'm using a filter method to return selected card whose tab match
-      this.state.cards.filter(card => card.tab === this.state.selected)
+      return this.state.cards.filter(card => card.tab === this.state.selected)
     }
   };
 
@@ -62,7 +62,7 @@ export default class Content extends Component {
         */}
         <Tabs tabs={this.state.tabs}
           selectedTab={this.state.selected}
-          selectTabHandler={this.state.changeSelected}
+          selectTabHandler={this.changeSelected}
         />
         <Cards cards={this.filterCards()} />
       </div>
