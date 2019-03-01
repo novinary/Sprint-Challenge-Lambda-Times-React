@@ -79,23 +79,23 @@ cursor: pointer;
 const TopBar = () => {
   return (
     <MainTopBar>
-    <TopBarCon>
-      <TopBarConLeft>
-        <TopBarConLeftSpan>TOPICS</TopBarConLeftSpan>
-        <TopBarConLeftSpan>SEARCH</TopBarConLeftSpan>
-      </TopBarConLeft>
-      <TopBarConCenter>
-        <TopBarConCenterSpan>GENERAL</TopBarConCenterSpan>
-        <TopBarConCenterSpan>BROWNBAG</TopBarConCenterSpan>
-        <TopBarConCenterSpan>RANDOM</TopBarConCenterSpan>
-        <TopBarConCenterSpan>MUSIC</TopBarConCenterSpan>
-        <TopBarConCenterSpan>ANNOUNCEMENTS</TopBarConCenterSpan>
-      </TopBarConCenter>
-      <TopBarConRight>
-        <TopBarConRightSpan>LOG IN</TopBarConRightSpan>
-      </TopBarConRight>
-    </TopBarCon>
-  </MainTopBar>
+      <TopBarCon>
+        <TopBarConLeft>
+          <TopBarConLeftSpan>TOPICS</TopBarConLeftSpan>
+          <TopBarConLeftSpan>SEARCH</TopBarConLeftSpan>
+        </TopBarConLeft>
+        <TopBarConCenter>
+          <TopBarConCenterSpan>GENERAL</TopBarConCenterSpan>
+          <TopBarConCenterSpan>BROWNBAG</TopBarConCenterSpan>
+          <TopBarConCenterSpan>RANDOM</TopBarConCenterSpan>
+          <TopBarConCenterSpan>MUSIC</TopBarConCenterSpan>
+          <TopBarConCenterSpan>ANNOUNCEMENTS</TopBarConCenterSpan>
+        </TopBarConCenter>
+        <TopBarConRight>
+          <TopBarConRightSpan>LOG IN</TopBarConRightSpan>
+        </TopBarConRight>
+      </TopBarCon>
+    </MainTopBar>
   )
 }
 
