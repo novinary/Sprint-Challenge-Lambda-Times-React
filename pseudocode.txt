@@ -2,3 +2,5 @@ This is a text file where I formulate my ideas into a psuedo-code
 before writing any code 
 
 Step 1 Create a new Branch called novina2 - done
+Step 2 From within the lambdatimes folder run yarn and then yarn start.
+This will open your locally hosted application in your browser. - done
