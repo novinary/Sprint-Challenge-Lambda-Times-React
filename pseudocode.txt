@@ -30,3 +30,8 @@ Step 4
 Once the component has mounted, get the data and reflect that data on the state.
 Call setState with data by passing in an object - Done
 
+Step 5
+complete the changeSelected and filterCards functions in the Content component.
+changeSelected function should take in the tab and
+update the state with the new tab. - Done
+
