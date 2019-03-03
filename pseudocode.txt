@@ -21,6 +21,6 @@ Pass the tab in as an argument to this handler - Done
 
 Cards 
 Map over the cards - Done
-Create a new card component for each passing the card as the only prop 
+Create a new card component for each passing the card as the only prop - Done
 
 Card.
