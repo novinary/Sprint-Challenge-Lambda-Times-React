@@ -16,9 +16,8 @@ Tab
 IF tab prop matches the selectedTab prop -> className should be tab active-tab
 ELSE className should be tab - Done
 
-Create selectHandler function from peops
-Pass the tab in as an argument to this handler
-and
+Create selectHandler function from props
+Pass the tab in as an argument to this handler - Done
 
 Cards 
 Card.
