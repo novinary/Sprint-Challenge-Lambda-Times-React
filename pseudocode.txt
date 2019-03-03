@@ -24,3 +24,4 @@ Map over the cards - Done
 Create a new card component for each passing the card as the only prop - Done
 
 Card.
+Pass in headline, img and author props - Done
