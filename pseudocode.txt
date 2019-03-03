@@ -20,4 +20,7 @@ Create selectHandler function from props
 Pass the tab in as an argument to this handler - Done
 
 Cards 
+Map over the cards - Done
+Create a new card component for each passing the card as the only prop 
+
 Card.
