@@ -4,3 +4,17 @@ before writing any code
 Step 1 Create a new Branch called novina2 - done
 Step 2 From within the lambdatimes folder run yarn and then yarn start.
 This will open your locally hosted application in your browser. - done
+Step 3 Inside the Content folder you will find all 5 components that make up 
+the content of the application. The flow goes like this: 
+Content > Tabs > Tab and Content > Cards > Card.
+Follow the directions in the Content component to get your data ready.
+Tabs 
+Map over the tabs - Done
+Create a new tab component - Done
+Add selectTabHandle, selectedTab & tab as props - Done
+Tab
+
+and
+Content >
+Cards >
+Card.
