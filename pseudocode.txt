@@ -1,0 +1,47 @@
+This is a text file where I formulate my ideas into a psuedo-code
+before writing any code 
+
+Step 1 Create a new Branch called novina2 - done
+Step 2 From within the lambdatimes folder run yarn and then yarn start.
+This will open your locally hosted application in your browser. - done
+Step 3 Inside the Content folder you will find all 5 components that make up 
+the content of the application. The flow goes like this: 
+Content > Tabs > Tab and Content > Cards > Card.
+Follow the directions in the Content component to get your data ready.
+Tabs 
+Map over the tabs - Done
+Create a new tab component - Done
+Add selectTabHandle, selectedTab & tab as props - Done
+Tab
+IF tab prop matches the selectedTab prop -> className should be tab active-tab
+ELSE className should be tab - Done
+
+Create selectHandler function from props
+Pass the tab in as an argument to this handler - Done
+
+Cards 
+Map over the cards - Done
+Create a new card component for each passing the card as the only prop - Done
+
+Card.
+Pass in headline, img and author props - Done
+
+Step 4
+Once the component has mounted, get the data and reflect that data on the state.
+Call setState with data by passing in an object - Done
+
+Step 5
+complete the changeSelected and filterCards functions in the Content component.
+
+changeSelected function should take in the tab and
+update the state with the new tab. - Done
+
+filterCards function returns an array of cards, so we can just pass it down as such.
+IF selectedTab is 'all' then return all
+ELSE return those cards whose 'tab' matches this.state.selected - Done
+
+Step 6
+Make sure all of your props being passed are validated using PropTypes. - Done
+
+Step 7
+Convert TopBar and Header components to Styled Components - Done
