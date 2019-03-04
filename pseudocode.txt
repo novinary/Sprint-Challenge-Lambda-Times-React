@@ -38,5 +38,7 @@ update the state with the new tab. - Done
 
 filterCards function returns an array of cards, so we can just pass it down as such.
 IF selectedTab is 'all' then return all
-ELSE return those cards whose 'tab' matches this.state.selected
+ELSE return those cards whose 'tab' matches this.state.selected - Done
 
+Step 6
+Make sure all of your props being passed are validated using PropTypes. - Done
