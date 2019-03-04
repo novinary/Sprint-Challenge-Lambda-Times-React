@@ -42,3 +42,6 @@ ELSE return those cards whose 'tab' matches this.state.selected - Done
 
 Step 6
 Make sure all of your props being passed are validated using PropTypes. - Done
+
+Step 7
+Convert TopBar and Header components to Styled Components - Done
